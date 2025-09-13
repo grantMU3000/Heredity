@@ -57,6 +57,7 @@ James: <br>
     True: 1.0000<br>
     False: 0.0000<br>
     </ul>
+  </ul>
 Lily:<br>
   <ul>
   Gene:<br>
