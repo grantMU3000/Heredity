@@ -74,3 +74,11 @@ Lily:<br>
     </p>
   </li>
 </ul>
+
+## How I made it
+The main method, load data, and powerset functions were all provided for me pre-made. I was also provided with a dictionary of probabilities to base my calculations off of. I then implemented the functions that were provided to me, but not implemented. Those are down below.
+<ul>
+  <li>
+    <p>Joint Probability</p>
+  </li>
+</ul>
