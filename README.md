@@ -31,29 +31,45 @@ or not they exhibit a trait associated with the gene based on a family tree and 
     <p> python heredity.py data/family0.csv </p>
     <p> Example output: <br>
       Harry:<br>
-  Gene: <br>
-    2: 0.0092 <br>
-    1: 0.4557 <br>
-    0: 0.5351 <br>
-  Trait: <br>
-    True: 0.2665 <br>
-    False: 0.7335 <br>
+      <ul>
+        Gene: <br>
+        <ul>
+          2: 0.0092 <br>
+          1: 0.4557 <br>
+          0: 0.5351 <br>
+        </ul>
+        Trait: <br>
+        <ul>
+          True: 0.2665 <br>
+          False: 0.7335 <br>
+        </ul>
+      </ul>
 James: <br>
+  <ul>
   Gene: <br>
+    <ul>
     2: 0.1976 <br>
     1: 0.5106 <br>
     0: 0.2918 <br>
+    </ul>
   Trait:<br>
+    <ul>
     True: 1.0000<br>
     False: 0.0000<br>
+    </ul>
 Lily:<br>
+  <ul>
   Gene:<br>
+    <ul>
     2: 0.0036<br>
     1: 0.0136<br>
     0: 0.9827<br>
+    </ul>
   Trait:<br>
+    <ul>
     True: 0.0000<br>
     False: 1.0000<br>
+    </ul>
     </p>
   </li>
 </ul>
