@@ -11,4 +11,24 @@ or not they exhibit a trait associated with the gene based on a family tree and 
 ## How to use it
 <ul>
   <li>Only requires Python 3 (any version of it is fine)</li>
+  <li>
+    <p> Getting Started: </p>
+    <ol>
+      <li>Clone the repository (e.g. git clone https://github.com/grantMU3000/Heredity.git </li>
+      <li> Run the program with a CSV dataset (e.g. python heredity.py data/family0.csv)</li>
+    </ol>
+  </li>
+  <li>
+    <p>Input CSV Format:</p>
+    <ul>
+      <li> Columns: Name, Mother, Father, Trait </li>
+      <li> If mother/father is blank, then the person is simply just a parent </li>
+      <li> Trait is 1 (Has trait), 0 (Doesn't), or blank (unknown) </li>
+    </ul>
+  </li>
+  <li>
+    <p> Example: </p>
+    <p> python heredity.py data/family0.csv </p>
+    
+  </li>
 </ul>
