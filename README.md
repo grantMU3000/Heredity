@@ -8,4 +8,7 @@ or not they exhibit a trait associated with the gene based on a family tree and 
   </li>
   <li>Produces normalized distributions for each person after calculating the probability distribution for each event</li>
 </ul>
-
+## How to use it
+<ul>
+  <li>Only requires Python 3 (any version of it is fine)</li>
+</ul>
