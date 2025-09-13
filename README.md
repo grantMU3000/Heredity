@@ -30,30 +30,30 @@ or not they exhibit a trait associated with the gene based on a family tree and 
     <p> Example: </p>
     <p> python heredity.py data/family0.csv </p>
     <p> Example output: <br>
-      Harry:
-  Gene:
-    2: 0.0092
-    1: 0.4557
-    0: 0.5351
-  Trait:
-    True: 0.2665
-    False: 0.7335
-James:
-  Gene:
-    2: 0.1976
-    1: 0.5106
-    0: 0.2918
-  Trait:
-    True: 1.0000
-    False: 0.0000
-Lily:
-  Gene:
-    2: 0.0036
-    1: 0.0136
-    0: 0.9827
-  Trait:
-    True: 0.0000
-    False: 1.0000
+      Harry:<br>
+  Gene: <br>
+    2: 0.0092 <br>
+    1: 0.4557 <br>
+    0: 0.5351 <br>
+  Trait: <br>
+    True: 0.2665 <br>
+    False: 0.7335 <br>
+James: <br>
+  Gene: <br>
+    2: 0.1976 <br>
+    1: 0.5106 <br>
+    0: 0.2918 <br>
+  Trait:<br>
+    True: 1.0000<br>
+    False: 0.0000<br>
+Lily:<br>
+  Gene:<br>
+    2: 0.0036<br>
+    1: 0.0136<br>
+    0: 0.9827<br>
+  Trait:<br>
+    True: 0.0000<br>
+    False: 1.0000<br>
     </p>
   </li>
 </ul>
