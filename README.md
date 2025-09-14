@@ -87,4 +87,12 @@ The main method, load data, and powerset functions were all provided for me pre-
       <li> For each person in this event, I multiplied the everyone's probability together to get the joint probability, and returned this. </li>
     </ul>
   </li>
+  
+  <li>
+    <p>Update</p>
+    <ul>
+      <li> Updated each person's probability distribution based on the joint probability of a given event </li>
+      <li> Added to the probability of a person's given gene count, and their trait posession according to the joint probability </li>
+    </ul>
+  </li>
 </ul>
