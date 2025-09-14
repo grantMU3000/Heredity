@@ -76,9 +76,15 @@ Lily:<br>
 </ul>
 
 ## How I made it
-The main method, load data, and powerset functions were all provided for me pre-made. I was also provided with a dictionary of probabilities to base my calculations off of. I then implemented the functions that were provided to me, but not implemented. Those are down below.
+The main method, load data, and powerset functions were all provided for me pre-made. I was also provided with a dictionary of probabilities to base my calculations off of. I then implemented the rest of the functions that were provided to me. Those are down below.
 <ul>
   <li>
     <p>Joint Probability</p>
+    <ul>
+      <li> Computed the probability of a person having 0-2 trait-associated genes. (Based on their parent's gene counts. If they don't have parents, it's unconditional.) </li>
+      <li> Computed the probability of a person exhibiting the trait given the count of their trait-associated genes. </li>
+      <li> Used the above two computations to calculate the likelihood that a person has x amount of genes and exhibits the trait associated with the gene. </li>
+      <li> For each person in this event, I multiplied the everyone's probability together to get the joint probability, and returned this. </li>
+    </ul>
   </li>
 </ul>
