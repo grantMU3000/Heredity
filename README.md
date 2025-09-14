@@ -81,9 +81,9 @@ The main method, load data, and powerset functions were all provided for me pre-
   <li>
     <p>Joint Probability</p>
     <ul>
-      <li> Computed the probability of a person having 0-2 trait-associated genes. (Based on their parent's gene counts. If they don't have parents, it's unconditional.) </li>
-      <li> Computed the probability of a person exhibiting the trait given the count of their trait-associated genes. </li>
-      <li> Used the above two computations to calculate the likelihood that a person has x amount of genes and exhibits the trait associated with the gene. </li>
+      <li> Computes the probability of a person having 0-2 trait-associated genes. (Based on their parent's gene counts. If they don't have parents, it's unconditional.) </li>
+      <li> Computes the probability of a person exhibiting the trait given the count of their trait-associated genes. </li>
+      <li> Uses the above two computations to calculate the likelihood that a person has x amount of genes and exhibits the trait associated with the gene. </li>
       <li> For each person in this event, I multiplied the everyone's probability together to get the joint probability, and returned this. </li>
     </ul>
   </li>
@@ -91,8 +91,18 @@ The main method, load data, and powerset functions were all provided for me pre-
   <li>
     <p>Update</p>
     <ul>
-      <li> Updated each person's probability distribution based on the joint probability of a given event </li>
-      <li> Added to the probability of a person's given gene count, and their trait posession according to the joint probability </li>
+      <li> Updates each person's probability distribution based on the joint probability of a given event </li>
+      <li> Adds to the probability of a person's given gene count, and their trait posession according to the joint probability </li>
+    </ul>
+  </li>
+
+  <li>
+    <p> Normalize </p>
+    <ul>
+      <li> Normalizes the probablity distribution for each person (Each probability sums to 1) </li>
+      <li> The relative proportions stay the same </li>
+      <li> If a distribution set is empty (all zeros), then each distribution is set to equal values that sum to 1 </li>
+      <li> Otherwise, each probability value is divided by the sum of the entire distribution </li>
     </ul>
   </li>
 </ul>
