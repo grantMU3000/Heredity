@@ -107,3 +107,22 @@ The main method, load data, and powerset functions were all provided for me pre-
     </ul>
   </li>
 </ul>
+
+## Why I made it
+This project is a course assignment under Harvard CS50's Introduction to AI. It allows me to practice implementing reasoning under uncertainty, bayesian networks, conditional probability, exhaustive enumeration and normalization. Personally, I wanted to enhance my understanding of probability models, and my overall understanding of machine learning.
+
+## My Conclusions
+Exhaustive enumeration is good for smaller data sets. However, with large data sets, this brute force approach takes a long time to get the joint probability. Also, I need to account for the possibility of an element's probability distribution being empty when normalizing.
+
+## Credits
+<ul>
+  <li>Built as part of Harvard CS50's Introduction to AI with Python</li>
+  <li>Starter specification by CS50; implementation by Grant Robinson</li>
+</ul>
+
+## Contact
+<ul>
+  <li>Author: Grant Robinson</li>
+  <li>Github: grantMU3000</li>
+  <li>Email: robinsonjg64@gmail.com</li>
+</ul>
